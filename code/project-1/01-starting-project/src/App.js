@@ -4,8 +4,8 @@ import ResultsTable from './components/ResultsTable/ResultsTable';
 import { useState } from 'react';
 
 function App() {
-  const [userInput, setUserInput] = useState(null);
-  // console.log(inputData);
+  const [userInput, setUserInput] = useState(10);
+  // console.log(userInput);
 
   const calculateHandler = (userInput) => {
     setUserInput(userInput);

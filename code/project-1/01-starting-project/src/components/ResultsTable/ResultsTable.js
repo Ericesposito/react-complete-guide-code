@@ -4,7 +4,7 @@ import TableRow from './TableRow';
 import TableHeader from './TableHeader';
 
 const ResultsTable = (props) => {
-  console.log(props.initialInvestment);
+  // console.log(props.initialInvestment);
 
   return (
     <table className={styles.result}>

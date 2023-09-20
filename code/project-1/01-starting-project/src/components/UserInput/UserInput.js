@@ -10,7 +10,7 @@ const initialUserInput = {
 
 const UserInput = (props) => {
   const [userInput, setUserInput] = useState(initialUserInput);
-  console.log(userInput);
+  // console.log(userInput);
 
   const submitHandler = (event) => {
     event.preventDefault();
